@@ -1,0 +1,31 @@
+A. Create Environment
+py -3.11 -m venv .venv
+Activate Environment (Windows PowerShell)
+.venv\Scripts\activate
+Deactivate Environment
+deactivate
+
+Simple Difference
+venv- A normal folder name for virtual environment.
+venv/
+
+.venv-Same as venv, but hidden/config-style naming.
+Modern convention and preferred by VS Code.
+.venv/
+
+.env- NOT a virtual environment.
+It is usually a file storing secret keys or environment variables.
+Example:OPENAI_API_KEY=xyz
+
+B. ipy - interactive python nb - notebooks as web interface
+
+markdown and code (executable text)
+
+C. Notebooks - write code, See output, Run code, Add notes,equations, images, charts all in 1 place
+
+3 ways - Anaconda - 
+a. All libraries pre installed
+b. VS Code - jupyter extension
+c. Google collab - has GPU support and runs on cloud 
+d. Kaggle 
+
