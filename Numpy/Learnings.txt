@@ -1,0 +1,11 @@
+Python - Already had high computational power
+But - no arrays
+early 2000- numarray library - to increase power still not compatible
+2005- travis oliphant - numeric library+ numarray library= numpy!
+
+Numpy- written in C - Fast and - python list se 50x faster
+
+A. Numpy Arrays - creation and etc
+list =[1,2,3,4] - multiple DT allowed, performance slower, Low memory eff- takes high space, Vector ops- Manual loops
+array =[1,2,3,4] - Same data , Much faster (C level), takes low space, vector ops are easy and fast
+difference!
