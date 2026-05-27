@@ -1,0 +1,54 @@
+Data Science ka  - step 1- pandas
+
+1. Origin story 
+2008- pandas dev - for data analysis
+well developed for data clean, analyze and easy manipulate
+
+pandas - Panel data - large multi D data bases
+
+2. Data Cleaning
+Data analysis
+Data transformation
+Data Visualization(Basic level)
+Data Aggregation
+File Handling
+Data Filtering and selection
+Time Series Analysis
+
+3. Learn - Pandas Series
+Data Frames
+Missing DataMerging , joining, concatenation
+GroupBy and Aggregations
+Pivot Tables and Crosstab
+Operations
+Working with real data
+Capstone project
+
+4. Selecting a data - csv, excel etc
+for further analysis.
+
+| Data Type / Source | Pandas Command                             | Industry Usage                   |
+| ------------------ | ------------------------------------------ | -------------------------------- |
+| CSV File           | `pd.read_csv()`                            | Most common for analytics & ML   |
+| Excel File         | `pd.read_excel()`                          | Business reports, finance data   |
+| SQL Database       | `pd.read_sql()`                            | Production/company databases     |
+| JSON File/API      | `pd.read_json()`                           | APIs, web apps, NoSQL data       |
+| HTML Tables        | `pd.read_html()`                           | Web scraping                     |
+| Pickle File        | `pd.read_pickle()`                         | Fast Python object storage       |
+| Parquet File       | `pd.read_parquet()`                        | Big data, cloud analytics        |
+| Feather File       | `pd.read_feather()`                        | Fast dataframe storage           |
+| TXT File           | `pd.read_table()` / `pd.read_csv(sep=...)` | Logs, text datasets              |
+| XML File           | `pd.read_xml()`                            | Enterprise systems               |
+| Clipboard Data     | `pd.read_clipboard()`                      | Quick copy-paste analysis        |
+| Fixed Width File   | `pd.read_fwf()`                            | Legacy banking/mainframe systems |
+| HDF5 File          | `pd.read_hdf()`                            | Scientific computing             |
+| SAS File           | `pd.read_sas()`                            | Healthcare, pharma               |
+| SPSS File          | `pd.read_spss()`                           | Surveys, research                |
+| Stata File         | `pd.read_stata()`                          | Economics/statistics             |
+| ORC File           | `pd.read_orc()`                            | Hadoop ecosystem                 |
+| Google BigQuery    | `pd.read_gbq()`                            | Cloud analytics                  |
+| SQL Query Result   | `pd.read_sql_query()`                      | Custom SQL querying              |
+| SQL Table Directly | `pd.read_sql_table()`                      | Loading full database tables     |
+
+
+   
