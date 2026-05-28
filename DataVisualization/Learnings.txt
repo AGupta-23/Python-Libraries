@@ -1,0 +1,222 @@
+# Data Visualization
+
+Data visualization means representing data using graphs, charts, and plots so that patterns, trends, and insights become easy to understand.
+
+There are mainly two ways to do visualization:
+
+---
+
+## Data Visualization
+
+### With Code
+
+1. Matplotlib, Seaborn, Plotly.
+2. Very high flexibility (can customize every element).
+3. Can integrate into apps, ML pipelines.
+
+### With Tools
+
+1. Power BI, Tableau, Google Data Studio.
+2. Limited to what the tool allows.
+3. Very tough to integrate with ML pipelines.
+
+---
+
+# Theoretical Description
+
+## 1. Matplotlib
+
+Matplotlib is the foundational Python visualization library used for creating graphs and charts.
+
+### Features
+
+* Highly customizable
+* Similar to MATLAB plotting
+* Used for low-level plotting control
+* Supports line charts, bar charts, histograms, scatter plots, pie charts, etc.
+
+### Advantages
+
+* Full control over every graph element
+* Industry standard base library
+* Works well with NumPy and pandas
+
+### Disadvantages
+
+* Syntax can become lengthy and complex
+* Default plots are less attractive compared to modern libraries
+
+---
+
+## 2. Seaborn
+
+Seaborn is built on top of Matplotlib and provides simpler syntax with better-looking statistical graphs.
+
+### Features
+
+* Beautiful default themes
+* Easier syntax than Matplotlib
+* Excellent for statistical visualization
+
+### Advantages
+
+* Cleaner and shorter code
+* Attractive charts by default
+* Works directly with pandas DataFrames
+
+### Disadvantages
+
+* Less customization compared to pure Matplotlib
+
+---
+
+## 3. Cufflinks + Plotly
+
+Cufflinks connects pandas with Plotly to create interactive visualizations easily.
+
+### Features
+
+* Interactive charts
+* Zooming and hovering support
+* Better for dashboards and presentations
+
+### Advantages
+
+* User-friendly for non-technical audiences
+* Modern and interactive visuals
+* Easy integration with notebooks
+
+### Disadvantages
+
+* Slightly slower for very large datasets
+* Less commonly used now compared to direct Plotly
+
+---
+
+# Important Visualization Categories
+
+## 1. Matplotlib Basics
+
+Basic plotting library used for:
+
+* Line plots
+* Bar charts
+* Scatter plots
+* Histograms
+* Pie charts
+
+---
+
+## 2. Distribution Plots
+
+Used to understand how data values are distributed.
+
+### Examples
+
+* Histogram
+* KDE Plot
+* Distplot
+
+### Purpose
+
+* Check spread of data
+* Detect skewness
+* Identify outliers
+
+---
+
+## 3. Categorical Plots
+
+Used for comparing categories/groups.
+
+### Examples
+
+* Countplot
+* Boxplot
+* Violinplot
+* Barplot
+
+### Purpose
+
+* Compare groups
+* Analyze category-wise trends
+
+---
+
+## 4. Matrix Plots
+
+Used to visualize relationships inside matrices/data tables.
+
+### Examples
+
+* Heatmaps
+* Correlation matrices
+
+### Purpose
+
+* Detect correlations
+* Find patterns in large datasets
+
+---
+
+## 5. Regression Plots
+
+Used to visualize relationships between variables.
+
+### Examples
+
+* Regression line plots
+* lmplot
+
+### Purpose
+
+* Understand trends
+* Predict relationships
+* Analyze linear relationships
+
+---
+
+## 6. Cufflinks + Plotly
+
+Used for interactive dashboards and modern visualizations.
+
+### Features
+
+* Interactive graphs
+* Zoom, hover, filter support
+* Better presentation visuals
+
+### Best Use Cases
+
+* Business dashboards
+* Reports
+* Client presentations
+
+---
+
+# Capstone Project + Report
+
+A capstone project is a final end-to-end project where you apply:
+
+* Data cleaning
+* Analysis
+* Visualization
+* Reporting
+
+### Typical Flow
+
+1. Load dataset
+2. Clean data
+3. Perform analysis
+4. Create visualizations
+5. Find insights
+6. Make report/dashboard
+
+### Report Includes
+
+* Problem statement
+* Dataset information
+* Analysis findings
+* Charts/graphs
+* Final conclusions
+* Recommendations

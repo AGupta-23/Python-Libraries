@@ -1,11 +1,201 @@
-Python - Already had high computational power
-But - no arrays
-early 2000- numarray library - to increase power still not compatible
-2005- travis oliphant - numeric library+ numarray library= numpy!
+# NumPy Theory
 
-Numpy- written in C - Fast and - python list se 50x faster
+## History of NumPy
 
-A. Numpy Arrays - creation and etc
-list =[1,2,3,4] - multiple DT allowed, performance slower, Low memory eff- takes high space, Vector ops- Manual loops
-array =[1,2,3,4] - Same data , Much faster (C level), takes low space, vector ops are easy and fast
-difference!
+Python already had very high computational capabilities and was easy to use, but it lacked efficient array processing for scientific computing.
+
+### Problem in Early Python
+
+* Python lists were slow for numerical computations.
+* No optimized multidimensional arrays.
+* Scientific calculations required faster memory-efficient structures.
+
+---
+
+## Early Development
+
+### Early 2000s — Numarray Library
+
+A library called **Numarray** was introduced to improve numerical computing performance.
+
+### Problems with Numarray
+
+* Better than normal Python lists
+* Still had compatibility issues
+* Scientific ecosystem was fragmented
+
+---
+
+## 2005 — Birth of NumPy
+
+Travis Oliphant combined:
+
+* Numeric library
+* Numarray library
+
+to create:
+
+# NumPy
+
+NumPy became the standard numerical computing library for Python.
+
+---
+
+# Why NumPy is Fast
+
+NumPy is mainly written in **C language** internally.
+
+Because of this:
+
+* Operations happen at C-level speed
+* Memory usage is optimized
+* Numerical computations become very fast
+
+NumPy arrays are often:
+
+* 20x–50x faster than Python lists
+* More memory efficient
+
+---
+
+# Python List vs NumPy Array
+
+| Feature                 | Python List                | NumPy Array            |
+| ----------------------- | -------------------------- | ---------------------- |
+| Data Types              | Multiple datatypes allowed | Usually same datatype  |
+| Speed                   | Slower                     | Much faster            |
+| Internal Working        | Python-level               | C-level optimized      |
+| Memory Usage            | Higher                     | Lower                  |
+| Vector Operations       | Manual loops required      | Built-in vectorization |
+| Mathematical Operations | Difficult/slower           | Easy and fast          |
+| Scientific Computing    | Not ideal                  | Best for it            |
+
+---
+
+# Python List Example
+
+```python id="k9b9j0"
+lst = [1,2,3,4]
+```
+
+### Characteristics
+
+* Can store mixed data types
+* Flexible
+* Slower for calculations
+
+Example:
+
+```python id="f6y8ms"
+lst = [1, "hello", 3.5]
+```
+
+---
+
+# NumPy Array Example
+
+```python id="jz0m31"
+import numpy as np
+
+arr = np.array([1,2,3,4])
+```
+
+### Characteristics
+
+* Stores same datatype efficiently
+* Faster mathematical operations
+* Optimized memory storage
+
+---
+
+# Vector Operations
+
+## Python List
+
+Requires loops:
+
+```python id="g4l7gx"
+lst = [1,2,3]
+
+result = []
+
+for i in lst:
+    result.append(i * 2)
+
+print(result)
+```
+
+---
+
+## NumPy Array
+
+Direct vectorized operation:
+
+```python id="hzsqxv"
+arr = np.array([1,2,3])
+
+print(arr * 2)
+```
+
+Output:
+
+```python id="g1b77u"
+[2 4 6]
+```
+
+This is called **vectorization**.
+
+---
+
+# Main Advantages of NumPy
+
+## 1. Faster Computation
+
+Uses optimized C backend.
+
+---
+
+## 2. Memory Efficient
+
+Consumes less memory than Python lists.
+
+---
+
+## 3. Multidimensional Arrays
+
+Supports:
+
+* 1D arrays
+* 2D arrays
+* 3D arrays and beyond
+
+---
+
+## 4. Vectorization
+
+Operations without loops.
+
+---
+
+## 5. Mathematical Functions
+
+Provides built-in:
+
+* Linear algebra
+* Statistics
+* Random numbers
+* Matrix operations
+* Broadcasting
+
+---
+
+# NumPy is the Foundation of Data Science
+
+Many major libraries are built on NumPy:
+
+* pandas
+* Matplotlib
+* Scikit-learn
+* TensorFlow
+
+So NumPy is considered the core foundation of scientific computing in Python.
